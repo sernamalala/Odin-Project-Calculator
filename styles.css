@@ -27,10 +27,13 @@ h1{
 label{
     font-size: 55px;
     border: 1px solid black;
-    height: fit-content;
+    height: 50px;
     margin: 30px;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.585);
+    display: flex;
+    align-items: center;
+    
 }
 
 .buttons{
@@ -54,6 +57,17 @@ button{
 button:hover{
     box-shadow: none;
 }
-.delete{
+
+.row-five button{
+    margin: 10px;
     width: 130px;
+}
+#equal{
+    background-color: rgb(21, 179, 21);
+}
+#delete{
+background-color: rgba(231, 39, 39, 0.953);
+}
+#clear{
+    background-color: rgb(36, 36, 229);
 }
