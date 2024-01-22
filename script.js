@@ -6,7 +6,7 @@ const clearButton = document.getElementById("clear");
 const deleteButton = document.getElementById("delete");
 const dotPresent = false;
 const equalButton = document.getElementById('equal');
-//clear
+//clear button
 
 clearButton.addEventListener("click",function(){
     label.textContent = "";
@@ -47,7 +47,7 @@ deleteButton.addEventListener("click",function(){
     label.textContent = currentInput.slice(0,-1);
 });
 
-//handle the dot
+//handle the dot for doubles
 
 function handleDot(){
 
@@ -62,7 +62,7 @@ function handleDot(){
 }
 //parts that I need to understand
 //calculations
-
+//try and catch for errors
 function calculate(){
 
     const currentInput = label.textContent;
